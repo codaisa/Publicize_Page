@@ -23,15 +23,6 @@
 
 @media (max-width: 665px) {
 
-    #main{
-        background-size: 300%;
-    }
-
-    #conheca{
-        background-size: 300%;
-
-    }
-
     #main header .inside{
     display: flex;
     flex-direction: column;
@@ -40,6 +31,28 @@
 
     #main header nav label {
         margin-right: 2%;
+    }
+
+    #inicio{
+        background-size: 200%;
+        background-repeat: repeat;
+    }
+
+    #inicio .box span .text h1,
+    #conheca .box span .text h1{
+        font-size: 2rem;
+
+    }
+
+    #inicio .box span img,
+    #conheca .box span img{
+        font-size: 2rem;
+        height: 30vh;
+    }
+
+    #inicio .box span .text h4,
+    #conheca .box span .text h4{
+        font-size: 1rem;
     }
 
 }

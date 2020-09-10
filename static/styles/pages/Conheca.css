@@ -1,6 +1,6 @@
 #conheca{
-    background-image: url("../../assets/conheca.jpg");
-    background-repeat: no-repeat;
+    background-image: url("conheca.jpg");
+    background-repeat: repeat;
     background-size: 100%;
 }
 
@@ -17,10 +17,9 @@
     display: flex;
 }
 
-#conheca .box span .text{
-    width: 24%;
-    max-width: 490px;
-
+#conheca .box span .text{    
+    width: 27vw;
+    max-width: 480px;
 }
 
 
@@ -45,3 +44,4 @@
     height: 45vh;
     width: 30vw;
 }
+

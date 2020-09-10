@@ -64,11 +64,6 @@ justify-content: center;
     width: 0%;
   }
 
-#main .box {
-    
-
-}
-
 #main .box.hide{
     opacity: 1;
     transition: opacity .5s linear;
