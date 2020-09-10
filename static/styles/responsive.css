@@ -21,45 +21,26 @@
         }
     }
     
-    @media (max-width: 665px) {
     
-    
-    
-       #main header .inside{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        }
-    
-        #main header nav label {
-            margin-right: 2%;
-        }
-    
-    
-    
-      /*    #inicio{
-            background-size: 200%;
-            background-repeat: repeat;
-        }
-    
-        #inicio .box span .text h1,
-        #conheca .box span .text h1{
-            font-size: 2rem;
-    
-        } } */
-    
+    @media (max-width: 460px){
         #inicio .box span img,
-        #conheca .box span img{
-            height: 30vh;
-        }
-    
-        #inicio .box span .text h4,
-        #conheca .box span .text h4{
-            font-size: 1rem;
+        #conheca .box span img{   
+        height: 30vh;
         }
     }
     
-    @media (max-width: 360px) {
+    @media (max-width: 660px) {
+    
+    
+        #main header .inside{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            }
+        
+            #main header nav label {
+                margin-right: 2%;
+            }
     
         #inicio .box span,
         #conheca .box span{
@@ -73,10 +54,11 @@
     
         #conheca .box span .text{
             width: 100%;
+    
         }
     
         #conheca .box span .text{
-            display: none;
+            width: 100%;
             position: relative;
         }
     
