@@ -76,6 +76,7 @@
         }
     
         #conheca .box span .text{
+            display: none;
             position: relative;
         }
     
