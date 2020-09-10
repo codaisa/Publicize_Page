@@ -1,0 +1,45 @@
+@media (max-width: 1230px) {
+#main header .title h1{
+    font-size: 1.7rem;
+}
+
+#main header nav {
+    transform: scale(0.9);
+}
+}
+
+@media (max-width: 750px) {
+    #main header .title h1{
+        transition-duration: 400ms;
+
+        font-size: 1rem;
+    }
+
+    #main header nav {
+        transform: scale(0.7);
+        
+    }
+}
+
+@media (max-width: 665px) {
+
+    #main{
+        background-size: 300%;
+    }
+
+    #conheca{
+        background-size: 300%;
+
+    }
+
+    #main header .inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    #main header nav label {
+        margin-right: 2%;
+    }
+
+}

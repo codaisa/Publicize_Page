@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.sections {
+    transition: all.4s;
+}
+
+.scroll input{
+    display: none;
+}
+
+.bloco{
+    width: 100%;
+    height: 100vh;
+}
+
+.bloco header{
+        height: 1px;
+        width: 100%;
+        background: white;
+
+}
+
+
+#_conheca:checked ~ section {
+    margin-top: -100vh;
+}
+
+#_contato:checked ~ section {
+    margin-top: -200vh;
+}
+
+#_horarios:checked ~ section {
+    margin-top: -300vh;
+}
+
+#_desenvolvedor:checked ~ section {
+    margin-top: -400vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  [data-anime]{
+    transition: .3s;
+    opacity: 0;
+}
+
+[data-anime="left"]{
+    transform: translate3d(-300px, 0, 0);
+
+}
+
+[data-anime="right"]{
+    transition-duration: 600ms;
+    transform: translate3d(+200px, 0, 0);
+    transform: scale(2);
+
+}
+
+[data-anime="right-title"]{
+    transition-duration: 900ms;
+    transform: translate3d(+200px, 0, 0);
+    transform: scale(3);
+
+}
+
+[data-anime="delay-opacity"] {
+    transition-duration: 2200ms;
+}
+
+[data-anime].animate{
+opacity: 1;
+transform: translate3d(0px, 0px, 0px);
+}
+
+
