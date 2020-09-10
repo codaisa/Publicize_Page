@@ -75,6 +75,10 @@
             width: 100%;
         }
     
+        #conheca .box span .text{
+            position: relative;
+        }
+    
         #inicio .box span .text h4,
         #conheca .box span .text h4{
             text-align: center;
@@ -83,6 +87,7 @@
     
         #inicio .box span img,
         #conheca .box span img{
+            border-radius: 64px;
             margin-left: 21%;
             width: 60vw;
     
