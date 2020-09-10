@@ -1,58 +1,90 @@
 @media (max-width: 1230px) {
-#main header .title h1{
-    font-size: 1.7rem;
-}
-
-#main header nav {
-    transform: scale(0.9);
-}
-}
-
-@media (max-width: 750px) {
     #main header .title h1{
-        transition-duration: 400ms;
-
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
-
+    
     #main header nav {
-        transform: scale(0.7);
-        
+        transform: scale(0.9);
     }
-}
-
-@media (max-width: 665px) {
-
-    #main header .inside{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     }
-
-    #main header nav label {
-        margin-right: 2%;
+    
+    @media (max-width: 750px) {
+        #main header .title h1{
+            transition-duration: 400ms;
+    
+            font-size: 1rem;
+        }
+    
+        #main header nav {
+            transform: scale(0.7);
+            
+        }
     }
-
-    #inicio{
-        background-size: 200%;
-        background-repeat: repeat;
+    
+    @media (max-width: 665px) {
+    
+    
+    
+       #main header .inside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+    
+        #main header nav label {
+            margin-right: 2%;
+        }
+    
+    
+    
+      /*    #inicio{
+            background-size: 200%;
+            background-repeat: repeat;
+        }
+    
+        #inicio .box span .text h1,
+        #conheca .box span .text h1{
+            font-size: 2rem;
+    
+        } } */
+    
+        #inicio .box span img,
+        #conheca .box span img{
+            height: 30vh;
+        }
+    
+        #inicio .box span .text h4,
+        #conheca .box span .text h4{
+            font-size: 1rem;
+        }
     }
-
-    #inicio .box span .text h1,
-    #conheca .box span .text h1{
-        font-size: 2rem;
-
+    
+    @media (max-width: 360px) {
+    
+        #inicio .box span,
+        #conheca .box span{
+            flex-direction: column;
+        }
+    
+        #inicio .box span .text{
+            width: 100%;
+        }
+    
+    
+        #conheca .box span .text{
+            width: 100%;
+        }
+    
+        #inicio .box span .text h4,
+        #conheca .box span .text h4{
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    
+        #inicio .box span img,
+        #conheca .box span img{
+            margin-left: 21%;
+            width: 60vw;
+    
+        }
     }
-
-    #inicio .box span img,
-    #conheca .box span img{
-        font-size: 2rem;
-        height: 30vh;
-    }
-
-    #inicio .box span .text h4,
-    #conheca .box span .text h4{
-        font-size: 1rem;
-    }
-
-}
