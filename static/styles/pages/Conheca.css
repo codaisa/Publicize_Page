@@ -14,34 +14,44 @@
 
 #conheca .box span{
     width: 100%;
-    display: flex;
+    display: grid;
 }
+
 
 #conheca .box span .text{    
-    width: 27vw;
-    max-width: 480px;
+    margin-bottom: 3%;
+    width: 100%;
+    position: relative;
+    text-align: center;
 }
 
 
-#conheca .box .text h1{
+#conheca .box  h1{
     font-size: 3rem;
     margin-bottom: 13px;
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     color: white;
+    max-width: 5%;
+    margin-left: 46%;
+    margin-right: 46%;
 }
 
 #conheca .box .text h4{
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 1.3rem;  
+    font-size: 1.3rem;
 }
 
 #conheca .box img{
-    margin-right: 5%;
-    margin-left: 15%;
     border-radius: 32px;
-    height: 45vh;
-    width: 30vw;
+    height: 42vh;
+    width: 20vw;
+    margin-right: 4%;
+    margin-left: 4%;
 }
 
+#conheca .box .grid {
+    display: flex;
+    justify-content: center;
+}

@@ -42,24 +42,13 @@
                 margin-right: 2%;
             }
     
-        #inicio .box span,
-        #conheca .box span{
+        #inicio .box span{
             flex-direction: column;
         }
     
         #inicio .box span .text{
             width: 100%;
-        }
     
-    
-        #conheca .box span .text{
-            width: 100%;
-    
-        }
-    
-        #conheca .box span .text{
-            width: 100%;
-            position: relative;
         }
     
         #inicio .box span .text h4,
@@ -68,11 +57,53 @@
             font-size: 0.9rem;
         }
     
-        #inicio .box span img,
-        #conheca .box span img{
+        #inicio .box span img{
             border-radius: 64px;
             margin-left: 21%;
             width: 60vw;
+        }
     
+        
+        #conheca .box span .text{
+            position: relative;
+        }
+    
+        #conheca .box span img{
+            border-radius: 64px;
+            margin-top: 3%;
+            width: 50vw;
+            height: 25vh;
+            margin:0;
+        }
+    
+        #conheca .box span .inside {
+            display: flex;
+        }
+    
+        #conheca .box span .grid{
+            margin-left: 2%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #conheca .box span .title{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        #conheca .box span h1{
+            margin-left: 20%;
+        }
+    
+        #conheca .box span .last{
+            display: none;
+        }
+    
+    
+        [data-anime="right-title"]{
+            transition-duration: 900ms;
+            transform: translate3d(+200px, 0, 0);
+            transform: scale(1.6);
         }
     }

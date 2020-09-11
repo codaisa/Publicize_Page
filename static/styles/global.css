@@ -79,16 +79,20 @@ body{
 }
 
 [data-anime="right"]{
-    transition-duration: 600ms;
     transform: translate3d(+200px, 0, 0);
-    transform: scale(2);
 
 }
 
 [data-anime="right-title"]{
     transition-duration: 900ms;
     transform: translate3d(+200px, 0, 0);
-    transform: scale(3);
+    transform: scale(5);
+}
+
+[data-anime="center-img"]{
+    transition-duration: 900ms;
+    transform: translate3d(+200px, 0, 0);
+    transform: scale(0.8);
 
 }
 
