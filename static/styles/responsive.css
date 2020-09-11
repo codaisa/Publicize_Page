@@ -31,7 +31,10 @@
     
     @media (max-width: 660px) {
     
-    
+        #inicio, #conheca{
+            background-size: 290%;
+        }
+
         #main header .inside{
             display: flex;
             flex-direction: column;
@@ -50,10 +53,17 @@
             width: 100%;
     
         }
-    
-        #inicio .box span .text h4,
-        #conheca .box span .text h4{
+
+        #inicio .box span .text h4{
+            margin-right: 3%;
+            margin-left: 3%;
             text-align: center;
+            font-size: 0.9rem;
+        }
+    
+        #conheca .box span .text h4{
+            margin-left: 4%;
+            text-align: left;
             font-size: 0.9rem;
         }
     
@@ -66,9 +76,10 @@
         
         #conheca .box span .text{
             position: relative;
+            margin-right: 2%;
         }
     
-        #conheca .box span img{
+        #conheca .box span .grid img{
             border-radius: 64px;
             margin-top: 3%;
             width: 50vw;
@@ -81,6 +92,7 @@
         }
     
         #conheca .box span .grid{
+            margin-right: 2%;
             margin-left: 2%;
             display: flex;
             flex-direction: column;
@@ -93,17 +105,30 @@
         }
     
         #conheca .box span h1{
-            margin-left: 20%;
+            margin-left: 25%;
         }
     
         #conheca .box span .last{
             display: none;
         }
-    
+        
+        #conheca .box span .center{
+            margin-top: 5%;
+        }
     
         [data-anime="right-title"]{
             transition-duration: 900ms;
             transform: translate3d(+200px, 0, 0);
             transform: scale(1.6);
+        }
+
+        #conheca .box .redes a {
+            margin-left: 3.2vw;
+            margin-right: 3.2vw;
+
+        }
+        
+        #conheca .box .redes h4{
+        font-size: 100%;
         }
     }

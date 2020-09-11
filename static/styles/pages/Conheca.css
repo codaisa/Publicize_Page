@@ -32,9 +32,8 @@
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     color: white;
-    max-width: 5%;
-    margin-left: 46%;
-    margin-right: 46%;
+     margin-left: 46%;
+    margin-right: 46%; 
 }
 
 #conheca .box .text h4{
@@ -43,15 +42,61 @@
     font-size: 1.3rem;
 }
 
-#conheca .box img{
-    border-radius: 32px;
+#conheca .box .inside img{
+    border-radius: 360px;
     height: 42vh;
     width: 20vw;
     margin-right: 4%;
     margin-left: 4%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px ;
 }
 
 #conheca .box .grid {
     display: flex;
+    justify-content: center;
+}
+
+#conheca .box .redes img{
+    height: 7vh;
+    margin-bottom: 1px;
+    transition-duration: 300ms;
+
+}
+
+#conheca .box .redes a{
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+}
+#conheca .box .redes img:hover{
+    transition-duration: 300ms;
+    transform: scale(1.2);
+}
+
+#conheca .box .redes .icons{
+
+    background-color: rgba(255, 241, 241, 0.164);
+    padding: 1.2vh 0vw;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+#conheca .box .redes h4{
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    margin-bottom: 1vh;
+    color: white;
+
+}
+
+#conheca .box .redes {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
