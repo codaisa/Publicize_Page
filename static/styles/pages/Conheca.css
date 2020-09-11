@@ -3,7 +3,6 @@
     background-repeat: repeat;
     background-size: 100%;
 }
-
 #conheca .box{
     width: 100%;
     height: 100%;
@@ -50,7 +49,7 @@
     margin-left: 4%;
     border-style: solid;
     border-color: white;
-    border-width: 2px ;
+    border-width: 2px;
 }
 
 #conheca .box .grid {
