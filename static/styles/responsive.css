@@ -129,7 +129,7 @@
         #contato .title h1 {
             width: 100%;
             margin: 0;
-            margin-left: 5%;
+            margin-left: 3%;
             transform: scale(0.8);
         }
 
@@ -153,6 +153,7 @@
         #contato .inside .left a {
         transform: scale(0.8);
         padding: 20px 15%;
+        margin-left: 0;
         }
 
         #contato .inside .right label{
