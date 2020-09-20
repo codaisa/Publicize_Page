@@ -81,10 +81,8 @@
     
         #conheca .box span .grid img{
             border-radius: 64px;
-            margin-top: 3%;
             width: 50vw;
             height: 25vh;
-            margin:0;
         }
     
         #conheca .box span .inside {
@@ -128,7 +126,43 @@
 
         }
         
+        #contato .title h1 {
+            width: 100%;
+            margin: 0;
+            margin-left: 5%;
+            transform: scale(0.8);
+        }
+
         #conheca .box .redes h4{
         font-size: 100%;
+        }
+
+        #contato .box .inside {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #contato .box .inside .right .desktop{
+            display: none;
+        }
+
+        #contato .box .inside .left{
+            width: 100%;
+        }
+
+        #contato .inside .left a {
+        transform: scale(0.8);
+        padding: 20px 15%;
+        }
+
+        #contato .inside .right label{
+            margin-top: 3%;
+
+        }
+
+        #contato #msg input{
+            width: 90%;
+            padding: 5px 0;
+            font-size: 1rem;
         }
     }
