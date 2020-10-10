@@ -12,9 +12,9 @@
 }
 
 #main header .title{
-width: 100%;
-display: flex;
-justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #main header .title h1{
@@ -45,7 +45,6 @@ justify-content: center;
     text-decoration: none;
     color: white;
     cursor:pointer;
-
 }
 
 #main header nav label:hover{

@@ -11,8 +11,9 @@ body{
     background-color: #f5f5f5;
 }
 
-.sections {
-    transition: all.4s;
+.sections,
+.date {
+    transition: all.5s;
 }
 
 #scroll .input{
@@ -47,6 +48,30 @@ body{
 #_desenvolvedor:checked ~ section {
     margin-top: -400vh;
 }
+
+    /* HORARIOS */
+
+#_segunda:checked ~ .date #segunda{
+    display: flex;
+}
+
+#_terca:checked ~ .date #terca {
+    display: flex;
+}
+#_quarta:checked ~ .date #quarta {
+    display: flex;
+}
+#_quinta:checked ~ .date #quinta {
+    display: flex;
+}
+#_sexta:checked ~ .date #sexta {
+    display: flex;
+}
+
+#scroll2 .input:checked ~ .date #start{
+    display: none;
+}
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -87,6 +112,12 @@ body{
     transition-duration: 900ms;
     transform: translate3d(+200px, 0, 0);
     transform: scale(4);
+}
+
+[data-anime="horarios-title"]{
+    transition-duration: 900ms;
+    transform: translate3d(+200px, 0, 0);
+    transform: scale(2.5);
 }
 
 [data-anime="center-img"]{
