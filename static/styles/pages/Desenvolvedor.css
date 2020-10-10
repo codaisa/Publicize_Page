@@ -1,3 +1,94 @@
 #desenvolvedor{
-    background-color: red; 
+    background-image: url("../../assets/desenvolvedorM.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#desenvolvedor .Dinside {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    grid-template-columns: 25% 30% 25%;
+
+}
+
+#desenvolvedor .Dtitle{
+    font-size: 2rem;
+    margin-top: 1.5%;
+    width: 20%;
+    margin-left: 32.5%;
+
+
+}
+
+#desenvolvedor .Dtitle h1{
+    margin-left: 40.5%;
+    background-color: black;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#desenvolvedor .Dinside .git h1{
+    font-size: 2rem;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+#desenvolvedor .Dinside .my h1{
+    font-size: 2rem;
+    margin-bottom: 2%;
+    margin-right: 30%;
+}
+
+#desenvolvedor .Dinside .social h1{
+    font-size: 2rem;
+    margin-bottom: 2%;
+    margin-left: 3%;
+
+}
+
+#desenvolvedor .Dinside img{
+    border-radius: 360px;
+    height: 30vh;
+    width: 15vw;
+    margin-right: 4%;
+    margin-left: 4%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    transition-duration: 500ms;
+}
+
+#desenvolvedor .Dinside .git,
+#desenvolvedor .Dinside .social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#desenvolvedor .Dinside .social .images{
+    display: flex;
+    flex-direction: row;
+}
+
+#desenvolvedor .Dinside .social img{
+    height: 10vh;
+    width: 10vw;
+    border: none;
+    margin: 0;
+}
+
+#desenvolvedor a{
+    transition-duration: 500ms;
+
+}
+
+#desenvolvedor a:hover{
+    transition-duration: 500ms;
+    transform: scale(1.2);
 }

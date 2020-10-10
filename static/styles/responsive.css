@@ -217,4 +217,54 @@
         transform: translate3d(+200px, 0, 0);
         transform: scale(0.8);
     }
+
+    #desenvolvedor{
+    }
+
+    #desenvolvedor .Dtitle{
+    margin-left: 0;
+    }
+
+    #desenvolvedor .Dtitle h1{
+        width: 420%;
+    }
+
+    #desenvolvedor .Dinside .social h1,
+    #desenvolvedor .Dinside .my h1,
+    #desenvolvedor .Dinside .git h1{
+        font-size: 1rem; 
+    }
+
+    #desenvolvedor .Dinside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #desenvolvedor .Dtitle{
+        margin-top: 5%;
+    }
+
+    #desenvolvedor .Dinside img{
+        height: 20vh;
+        width: 40vw;
+        margin: 0;
+    }
+
+    #desenvolvedor .Dinside .my h1{
+    width: 100%;
+    }
+
+    #desenvolvedor .Dinside .social .images{
+        width: 200%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #desenvolvedor .Dinside .social h1{
+        display: none;
+    }
+
+    #desenvolvedor .Dinside .git {
+        display: none;
+    }
 }
