@@ -51,6 +51,11 @@
 
 }
 
+#desenvolvedor{
+    background-size: 270%;
+    background-position: left;
+}
+
 #desenvolvedor .Dinside img{
     border-radius: 360px;
     height: 30vh;
