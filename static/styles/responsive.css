@@ -218,4 +218,22 @@
         transform: scale(0.8);
     }
 
+
+
+
+
+
+
+
+
+
+
+
+    #conheca{
+        background-image: url("../../assets/Background-Mobile/conheca.jpg");
+    }
+
+    #horarios{
+        background-image: url("../../assets/Background-Mobile/horarios.jpg");
+    }
 }
